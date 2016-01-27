@@ -10,13 +10,19 @@ namespace SampleRA.Test
         [TestMethod]
         public void TestDetourage()
         {
-            Detourage.GrayDetour(Tools.VideoPath);
+            Sample.Execute(Sample.GrayCapture, Tools.VideoPath);
         }
 
         [TestMethod]
         public void TestDetourageCamera()
         {
-            Detourage.GrayDetour();
+            Sample.Execute(Sample.GrayCapture);
+        }
+
+        [TestMethod]
+        public void TestDetectFace()
+        {
+            Sample.Execute(Sample.DetectFace);
         }
     }
 }
