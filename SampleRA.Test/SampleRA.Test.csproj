@@ -65,6 +65,49 @@
     <Content Include="Data\bouncingBall.avi">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data\haarcascades\haarcascade_eye.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\haarcascades\haarcascade_eye_tree_eyeglasses.xml" />
+    <Content Include="Data\haarcascades\haarcascade_frontalcatface.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\haarcascades\haarcascade_frontalcatface_extended.xml" />
+    <Content Include="Data\haarcascades\haarcascade_frontalface_alt.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\haarcascades\haarcascade_frontalface_alt2.xml" />
+    <Content Include="Data\haarcascades\haarcascade_frontalface_alt_tree.xml" />
+    <Content Include="Data\haarcascades\haarcascade_frontalface_default.xml" />
+    <Content Include="Data\haarcascades\haarcascade_fullbody.xml" />
+    <Content Include="Data\haarcascades\haarcascade_lefteye_2splits.xml" />
+    <Content Include="Data\haarcascades\haarcascade_licence_plate_rus_16stages.xml" />
+    <Content Include="Data\haarcascades\haarcascade_lowerbody.xml" />
+    <Content Include="Data\haarcascades\haarcascade_profileface.xml" />
+    <Content Include="Data\haarcascades\haarcascade_righteye_2splits.xml" />
+    <Content Include="Data\haarcascades\haarcascade_russian_plate_number.xml" />
+    <Content Include="Data\haarcascades\haarcascade_smile.xml" />
+    <Content Include="Data\haarcascades\haarcascade_upperbody.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_eye.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_eye_tree_eyeglasses.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_frontalface_alt.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\haarcascades_cuda\haarcascade_frontalface_alt2.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_frontalface_alt_tree.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_frontalface_default.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_fullbody.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_lefteye_2splits.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_lowerbody.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_profileface.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_righteye_2splits.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_smile.xml" />
+    <Content Include="Data\haarcascades_cuda\haarcascade_upperbody.xml" />
+    <Content Include="Data\hogcascades\hogcascade_pedestrians.xml" />
+    <Content Include="Data\lbpcascades\lbpcascade_frontalcatface.xml" />
+    <Content Include="Data\lbpcascades\lbpcascade_frontalface.xml" />
+    <Content Include="Data\lbpcascades\lbpcascade_profileface.xml" />
+    <Content Include="Data\lbpcascades\lbpcascade_silverware.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenCVnet.Lib\OpenCVnet.Lib.csproj">
@@ -73,6 +116,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Data\vec_files\trainingfaces_24-24.vec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>
